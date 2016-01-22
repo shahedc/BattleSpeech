@@ -47,7 +47,7 @@ namespace BattleSpeech
             var column = random.Next(1, 4);
 
             var rect = new Windows.UI.Xaml.Shapes.Rectangle();
-            rect.Height = 100;
+            rect.Height = 50;
             rect.Width = 100;
             rect.Margin = new Thickness(1, 1, 1, 1);
 
@@ -62,8 +62,8 @@ namespace BattleSpeech
             var attackPosition = GetPositionFromCommands(row, column);
             
             var rect = new Windows.UI.Xaml.Shapes.Rectangle();
-            rect.Height = 100;
-            rect.Width = 100;
+            rect.Height = 35;
+            rect.Width = 35;
             rect.Margin = new Thickness(1, 1, 1, 1);
 
             rect.Fill = new SolidColorBrush(Colors.DarkRed);
