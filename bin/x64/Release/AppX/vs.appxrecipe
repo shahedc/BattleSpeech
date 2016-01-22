@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>SHCHOWD3-X1G2</Machine>
-    <WindowsUser>shchowd</WindowsUser>
+    <Machine>MININT-GMF6KCD</Machine>
+    <WindowsUser>shahe_000</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>30bff5e1-0b79-4390-9763-1b2b809f828a</PackageIdentityName>
-    <IntermediateOutputPath>D:\_work\win10prac\BattleSpeech\obj\x64\Release\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>65746E04695A3DD011224EADFEE446DE636923C726746C4D60097504C6F61198</RegisteredManifestChecksum>
+    <IntermediateOutputPath>D:\_work\win10Prac\BattleSpeech\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>640472FCAF2102A7ED4513978E0D23D2E78FF9A4F4696D148010DBBE39DEAEFE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>30bff5e1-0b79-4390-9763-1b2b809f828a_1.0.0.0_x64__wcdcjn5sv8t1r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>30bff5e1-0b79-4390-9763-1b2b809f828a_wcdcjn5sv8t1r!App</RegisteredUserModeAppID>
     <RegisteredPackageID>30bff5e1-0b79-4390-9763-1b2b809f828a</RegisteredPackageID>
@@ -19,96 +19,123 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-22T07:33:33.884</Modified>
+      <Modified>2016-01-22T08:13:46.544</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\ApplicationInsights.config">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2016-01-22T04:47:18.074</Modified>
+      <Modified>2016-01-22T08:10:35.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.794</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T06:38:34.000</Modified>
+      <Modified>2016-01-22T08:10:35.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\BattleSpeech.dll">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\BattleSpeech.dll">
       <PackagePath>BattleSpeech.dll</PackagePath>
-      <Modified>2016-01-22T07:33:33.384</Modified>
+      <Modified>2016-01-22T08:13:46.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\BattleSpeech.exe">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\BattleSpeech.exe">
       <PackagePath>BattleSpeech.exe</PackagePath>
-      <Modified>2016-01-22T07:33:33.865</Modified>
+      <Modified>2016-01-22T08:13:46.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\ClrCompression.dll">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2016-01-22T04:17:35.572</Modified>
+      <Modified>2015-09-20T15:52:47.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-22T07:15:46.395</Modified>
+      <Modified>2016-01-22T08:13:12.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\_work\win10prac\BattleSpeech\bin\x64\Release\ilc\VoiceCommands.xml">
+    <AppxPackagedFile Include="D:\_work\win10Prac\BattleSpeech\bin\x64\Release\ilc\VoiceCommands.xml">
       <PackagePath>VoiceCommands.xml</PackagePath>
-      <Modified>2016-01-22T05:42:34.026</Modified>
+      <Modified>2016-01-22T08:10:36.019</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
       <Name>Microsoft.NET.Native.Runtime.1.1</Name>
-      <Version>1.1.23231.0</Version>
+      <Version>1.1.23406.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
       <Name>Microsoft.NET.Native.Runtime.1.1</Name>
-      <Version>1.1.23231.0</Version>
+      <Version>1.1.23406.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
       <Name>Microsoft.NET.Native.Runtime.1.1</Name>
-      <Version>1.1.23231.0</Version>
+      <Version>1.1.23406.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

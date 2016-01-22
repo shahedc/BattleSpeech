@@ -43,8 +43,8 @@ namespace BattleSpeech
         private void InitShips()
         {
             Random random = new Random();
-            var row = random.Next(0, 4);
-            var column = random.Next(0, 4);
+            var row = random.Next(1, 4);
+            var column = random.Next(1, 4);
 
             var rect = new Windows.UI.Xaml.Shapes.Rectangle();
             rect.Height = 100;
