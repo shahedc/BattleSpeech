@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="BattleSpeech.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BattleSpeech"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="CornflowerBlue" x:Name="Container">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text=""  TextAlignment="Center" Margin="5" />
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="C1"  TextAlignment="Center" Margin="5" />
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="C2"  TextAlignment="Center" Margin="5" />
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="C3"  TextAlignment="Center" Margin="5" />
+        <TextBlock Grid.Row="0" Grid.Column="4" Text="C4"  TextAlignment="Center" Margin="5" />
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="R1"  TextAlignment="Center" Margin="5" />
+        <Rectangle Grid.Row="1" Grid.Column="1" Fill="AliceBlue" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="1" Grid.Column="2" Fill="Yellow" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="1" Grid.Column="3" Fill="Green" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="1" Grid.Column="4" Fill="SpringGreen" Stroke="Black" Stretch="Fill" Margin="5" />
+
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="R2"  TextAlignment="Center" Margin="5" />
+        <Rectangle Grid.Row="2" Grid.Column="1" Fill="Bisque" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="2" Grid.Column="2" Fill="Beige" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="2" Grid.Column="3" Fill="Azure" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="2" Grid.Column="4" Fill="Black" Stroke="Black" Stretch="Fill" Margin="5" />
+
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="R3"  TextAlignment="Center" Margin="5" />
+        <Rectangle Grid.Row="3" Grid.Column="1" Fill="Purple" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="3" Grid.Column="2" Fill="PowderBlue" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="3" Grid.Column="3" Fill="Honeydew" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="3" Grid.Column="4" Fill="BlueViolet" Stroke="Black" Stretch="Fill" Margin="5" />
+
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="R4"  TextAlignment="Center" Margin="5" />
+        <Rectangle Grid.Row="4" Grid.Column="1" Fill="OldLace" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="4" Grid.Column="2" Fill="Olive" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="4" Grid.Column="3" Fill="Green" Stroke="Black" Stretch="Fill" Margin="5" />
+        <Rectangle Grid.Row="4" Grid.Column="4" Fill="GreenYellow" Stroke="Black" Stretch="Fill" Margin="5" />
+
+    </Grid>
+</Page>

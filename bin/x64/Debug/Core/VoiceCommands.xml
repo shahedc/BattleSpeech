@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="BattleSpeechCommandSet_en-us">
+    <AppName>Battle Speech</AppName>
+    <Example>Launch</Example>
+
+    <Command Name="LaunchApp">
+      <Example>launch</Example>
+      <ListenFor>launch</ListenFor>
+      <Feedback>Prepare to attack</Feedback>
+      <Navigate />
+    </Command>
+
+    <Command Name="Attack">
+      <Example>attack</Example>
+      <ListenFor>attack row {row} column {column}</ListenFor>
+      <Feedback>Attacking</Feedback>
+      <Navigate/>
+    </Command>
+    
+    <Command Name="TurnRed">
+      <Example>turn red</Example>
+      <ListenFor>turn red</ListenFor>
+      <Feedback>Ok, turning red</Feedback>
+      <Navigate />
+    </Command>
+
+
+    <PhraseList Label="row">
+      <Item>One</Item>
+      <Item>Two</Item>
+      <Item>Three</Item>
+      <Item>Four</Item>
+    </PhraseList>
+
+    <PhraseList Label="column">
+      <Item>One</Item>
+      <Item>Two</Item>
+      <Item>Three</Item>
+      <Item>Four</Item>
+    </PhraseList>
+    
+  </CommandSet>
+</VoiceCommands>
